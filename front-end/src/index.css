@@ -7,32 +7,3 @@ code {
     monospace;
 }
 
-.Navegation-Bar {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.Navegation-Bar h1 {
-  color: #C50000;
-  font-family: 'Julius Sans One', sans-serif;
-}
-
-.Navegation-Bar h2 {
-  color: rgb(229, 228, 215);
-  font-family: 'Anek Telugu', sans-serif;
-}
-
-.Navegation-Bar form{
-  background-color: wheat;
-  padding: 0.4rem 1rem;
-  border-radius: 1.5rem;
-}
-
-.Navegation-Bar #SearchBar {
-  width: 15rem;
-  padding: 0.4rem 1rem;
-  font-family: Arial, sans-serif;
-  font-weight: 500;
-}

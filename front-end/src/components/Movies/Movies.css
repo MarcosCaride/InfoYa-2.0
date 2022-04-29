@@ -1,0 +1,34 @@
+h2 {
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+}
+
+.MoviesSection {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.MoviesSection .movie{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0.5rem;
+    padding: 0.5rem;
+
+    justify-content: flex-start;
+    background-color: white;
+    width: 20rem;
+    border-radius: 1rem;
+}
+
+.MoviesSection .movie img {
+    width: 174px;
+    height: 10rem;
+}
+
+.MoviesSection .movie h3{
+    width: 100%;
+}
+
+.MoviesSection .movie p{
+    justify-self: right;
+}

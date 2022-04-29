@@ -1,19 +1,17 @@
 import './App.css';
 import { images } from './constants';
 
+import NavBar from './Wrapper/NavBar/NavBar';
+import Movies from './components/Movies/Movies';
+
 const App = () => {
   return (
     <>
-      <div class="Navegation-Bar">
-        <h1>InfoYa</h1>
+      <NavBar />
+      <Movies />
+      
 
-        <form>
-          <input id="SearchBar" placeholder="¿Que estas buscando?" ></input>
-          <button>Search</button>
-        </form>
 
-        <h2>Menu</h2>
-      </div>
     </>
   );
 }
